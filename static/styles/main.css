@@ -1,0 +1,46 @@
+/* Transferred styles from index.html */
+body {
+    background-color: #181818; /* Darker background color */
+    font-family: Arial, sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: red; /* Red text color */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+video {
+    height: 240px;
+    border-radius: 10px;
+    outline: none; /* Removing default video outline */
+}
+
+.start-btn {
+    color: blue; /* Blue text color for the button */
+    background-color: black; /* Black button background */
+    border-radius: 10px;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
